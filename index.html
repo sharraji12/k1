@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ta" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#2E7D32">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>KVS நெல் நடவு சேவைகள் | KVS Paddy Transplantation Services</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Tamil Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+    
+    <!-- PWA Support -->
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="icons/icon-192x192.png">
+</head>
+<body>
+    <!-- Contact Bar -->
+    <div class="contact-bar py-2">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="contact-numbers">
+                <a href="tel:9345384869" class="me-3">
+                    <i class="fas fa-phone"></i> 93453 84869
+                </a>
+                <a href="tel:6382162105">
+                    <i class="fas fa-phone"></i> 63821 62105
+                </a>
+            </div>
+            <div class="d-flex gap-3 align-items-center">
+                <div id="datetime">
+                    <i class="fas fa-clock"></i>
+                    <span id="current-time"></span>
+                </div>
+                <button id="theme-toggle" class="theme-btn">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button id="lang-toggle" class="lang-btn" title="Switch Language">
+                    <span class="current-lang">தமிழ்</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <div class="brand-text">KVS நெல் நடவு சேவைகள்</div>
+                <div class="owner-name">L. வெங்கடேசன்</div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">சேவைகள்</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#agriculture-info">விவசாய தகவல்கள்</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">தொடர்பு</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <h1 data-aos="fade-up">நவீன நெல் நடவு சேவைகள்</h1>
+            <div class="hero-quote" data-aos="fade-up" data-aos-delay="200">
+                "உழவுக்கும் தொழிலுக்கும் வந்தனை செய்வோம்"
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up" data-translate="services-title">எங்கள் சேவைகள்</h2>
+            <div class="row">
+                <div class="col-md-6" data-aos="fade-up">
+                    <div class="service-card">
+                        <div class="service-illustration paddy-animation"></div>
+                        <h3 data-translate="paddy-title">நெல் நடவு</h3>
+                        <p data-translate="paddy-desc">நவீன இயந்திரங்கள் மூலம் துல்லியமான நெல் நடவு சேவை</p>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card">
+                        <div class="service-illustration tractor-animation"></div>
+                        <h3 data-translate="machinery-title">இயந்திர சேவைகள்</h3>
+                        <p data-translate="machinery-desc">டிராக்டர் மற்றும் டாடா ஏசி சேவைகள்</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Agriculture Info Section -->
+    <section id="agriculture-info" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">விவசாய தகவல்கள்</h2>
+            <div class="row">
+                <div class="col-md-6" data-aos="fade-up">
+                    <div class="info-card mb-4">
+                        <h3>நெல் சாகுபடி காலம்</h3>
+                        <ul class="season-list">
+                            <li>சம்பா - ஜூன் முதல் செப்டம்பர்</li>
+                            <li>குறுவை - செப்டம்பர் முதல் டிசம்பர்</li>
+                            <li>தாளடி - டிசம்பர் முதல் மார்ச்</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="info-card mb-4">
+                        <h3>நெல் ரகங்கள்</h3>
+                        <ul class="variety-list">
+                            <li>ADT 36 - 110 நாட்கள்</li>
+                            <li>ADT 43 - 115 நாட்கள்</li>
+                            <li>CO 51 - 135 நாட்கள்</li>
+                            <li>BPT 5204 - 145 நாட்கள்</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-12" data-aos="fade-up">
+                    <div class="info-card">
+                        <h3>முக்கிய விவசாய குறிப்புகள்</h3>
+                        <div class="farming-tips">
+                            <p>🌱 நாற்று வயது: 18-22 நாட்கள்</p>
+                            <p>💧 நீர் மேலாண்மை: 2.5 செ.மீ ஆழம்</p>
+                            <p>🌿 களை மேலாண்மை: நடவு செய்த 3வது நாள்</p>
+                            <p>🌾 உர மேலாண்மை: அடி உரம் + மேல் உரம்</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">தொடர்பு கொள்ள</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center">
+                    <a href="tel:9345384869" class="phone-number" data-aos="fade-up">
+                        <i class="fas fa-phone"></i> 93453 84869
+                    </a>
+                    <a href="tel:6382162105" class="phone-number" data-aos="fade-up" data-aos-delay="100">
+                        <i class="fas fa-phone"></i> 63821 62105
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>சேவை பகுதிகள்</h4>
+                    <ul>
+                        <li>செங்கல்பட்டு</li>
+                        <li>மேல்மருவத்தூர்</li>
+                        <li>திண்டிவனம்</li>
+                        <li>வந்தவாசி</li>
+                        <li>உத்திரமேரூர்</li>
+                        <li>செய்யார்</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>நேரம்</h4>
+                    <p>காலை 6:00 முதல்</p>
+                    <p>மாலை 7:00 வரை</p>
+                    <p>அனைத்து நாட்களிலும்</p>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <p>&copy; 2024 KVS நெல் நடவு சேவைகள். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="scripts.js"></script>
+</body>
+</html>
